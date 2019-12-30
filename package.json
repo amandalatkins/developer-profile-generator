@@ -1,0 +1,25 @@
+{
+  "name": "devprogen",
+  "version": "1.0.0",
+  "description": "Generate a PDF profile using any GitHub username",
+  "main": "index.js",
+  "scripts": {
+    "test": ">"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandalatkins/developer-profile-generator.git"
+  },
+  "author": "Amanda Atkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amandalatkins/developer-profile-generator/issues"
+  },
+  "homepage": "https://github.com/amandalatkins/developer-profile-generator#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "electron": "^7.1.7",
+    "electron-html-to": "^2.6.0",
+    "inquirer": "^7.0.1"
+  }
+}
