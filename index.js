@@ -44,7 +44,7 @@ function fetchProfile() {
 }
 
 function renderPDF() {
-    console.log('rendering pdf...');
+    console.log('Rendering PDF...');
     sendToPDF({
         html: pdfContent,
         pdf: {
@@ -55,8 +55,9 @@ function renderPDF() {
         if (err) {
             return console.log(err);
         }
-        result.stream.pipe(fs.createWriteStream('profiles/'+userName+'.pdf'));
-        console.log('success!');
+        fs.mkdir('profiles', () => result.stream.pipe(fs.createWriteStream('profiles/'+userName+'.pdf')));
+       
+        console.log('Success!');
         sendToPDF.kill();
     });
 }
