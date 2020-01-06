@@ -1,3 +1,4 @@
+// This function returns the HTML with variable data filled in. Stored in separate file for legibility.
 exports.renderPdfContent = (data, favColor, stars) => {
     return `<!DOCTYPE html>
 <html lang="en">
