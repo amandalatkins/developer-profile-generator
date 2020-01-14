@@ -31,7 +31,7 @@ node index.js
 
 The following code snippet shows how this application queries the GitHub API.
 
-```
+```javascript
 // Fetch the GitHub profile and stars data
 function fetchProfile() {
     // query for the profile data
@@ -56,7 +56,7 @@ function fetchProfile() {
 
 The following code snippet shows how this application renders the generated content to an actual PDF file.
 
-```
+```javascript
 // This function renders the PDF using electron-html-to
 function renderPDF() {
     console.log('Rendering PDF...');
