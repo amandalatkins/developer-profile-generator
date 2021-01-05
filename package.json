@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/amandalatkins/developer-profile-generator#readme",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "electron": "^7.2.4",
     "electron-html-to": "^2.6.0",
     "inquirer": "^7.0.1"
